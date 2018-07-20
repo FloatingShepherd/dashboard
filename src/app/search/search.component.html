@@ -1,0 +1,6 @@
+<div class="input-group w-100">
+<input #searchBox class="form-control form-control-dark rounded-0" placeholder="Search" aria-label="Search" type="text" (keyup)="search(searchBox.value)">
+<span class="input-group-btn">
+    <button class="btn btn-dark rounded-0" (click)="searchBox.value='';clear()">Clear</button>
+</span>
+</div>
